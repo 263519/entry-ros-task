@@ -5,6 +5,9 @@
 > **Requirements:** Docker + Docker Compose — nothing else needed on your machine
 
 ---
+## Solution
+
+My solution is described in the note.md (things I was asked at the bottom of this readme)
 
 ## Your Task
 
