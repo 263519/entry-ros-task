@@ -23,7 +23,19 @@ def generate_launch_description():
         ),
 
         # TODO 1 — add your tf_publisher node here
+        Node(
+            package='robot_arm',
+            executable='tf_publisher',
+            name='tf_publisher',
+            output='screen'
+        ),
 
         # TODO 2 — add your pose_publisher node here
+        Node(
+            package='robot_arm',
+            executable='pose_publisher',
+            name='pose_publisher',
+            output='screen'
+        ),
 
     ])
